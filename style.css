@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1199px;
+    font-family: 'Spartan', sans-serif;
+}
+
+.container {
+    background-image: url('images/bg-pattern-top-desktop.svg'),
+        url('images/bg-pattern-bottom-desktop.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50%, 50%;
+    background-position: top left, bottom right;
+}
+
+h1 {
+    position: relative;
+    top: 65px;
+    left: 85px;
+    font-size: 50px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color: hsl(300, 43%, 22%);
+}
+
+.f-text {
+    position: relative;
+    top: 85px;
+    left: 85px;
+    font-size: 18px;
+    line-height: 30px;
+    color: hsl(303, 10%, 53%);
+}
+
+.section-left {
+    display: flex;
+    justify-content: end;
+}
+
+span {
+    position: relative;
+    width: 440px;
+    height: 45px;
+    background: hsl(300, 24%, 96%);
+    text-align: center;
+    padding: 13px;
+    color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+span:first-child {
+    position: relative;
+    top: -20px;
+    right: -845px;
+}
+
+span:nth-child(2) {
+    position: relative;
+    top: -150px;
+    left: 354px;
+}
+
+span:nth-child(3) {
+    position: relative;
+    top: -85px;
+}
+
+.star {
+    position: relative;
+    left: -130px;
+}
+
+.text {
+    position: relative;
+    top: -20px;
+    left: 50px;
+    font-size: 15px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    display: inline-block;
+    position: relative;
+    width: 370px;
+    height: 235px;
+    background: hsl(300, 43%, 22%);
+    border-radius: 10px;
+}
+
+.card-1>img,
+.card-2>img,
+.card-3>img {
+    position: relative;
+    width: 50px;
+    border-radius: 50%;
+    top: 25px;
+    left: 30px;
+}
+
+h4 {
+    position: relative;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+    top: -25px;
+    left: 100px;
+    line-height: 22px;
+}
+
+strong {
+    font-weight: lighter;
+    color: hsl(333, 80%, 67%);
+}
+
+.card-1>p,
+.card-2>p,
+.card-3>p {
+    position: relative;
+    left: 15px;
+    top: -15px;
+    padding: 25px;
+    line-height: 23px;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+.card-1 {
+    position: relative;
+    top: 75px;
+    left: 80px;
+}
+
+.card-2 {
+    position: relative;
+    top: 52px;
+    left: 105px;
+}
+
+.card-3 {
+    position: relative;
+    top: 52px;
+    left: 130px;
+}
